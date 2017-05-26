@@ -228,15 +228,15 @@ p:last-child {
 }
 
 .colorstext {
-    color: #f56363;
+    color: #00973f;
 }
 
 .coloricon i {
-    color: #f56363;
+    color: #00973f;
 }
 
 .colorsbg {
-    background: #f56363;
+    background: #00973f;
     color: #ffffff;
 }
 
@@ -368,25 +368,25 @@ Button
 .btn-primary.disabled,
 .btn-primary.disabled:hover {
     color: #ddd;
-    background-color: #ff5e3a;
-    border-color: #ff5e3a;
+    background-color: #00973f;
+    border-color: #00973f;
 }
 
 .btn-primary {
     color: #fff;
-    background-color: #ff5e3a;
-    border-color: #ff5e3a;
+    background-color: #00973f;
+    border-color: #00973f;
     transition: .6s;
 }
 
 .btn-primary:hover {
     color: #ddd;
-    background-color: #ff5e3a;
-    border-color: #ff5e3a;
+    background-color: #00973f;
+    border-color: #00973f;
 }
 
 .btn {
-    border: 1px solid #ff5e3a;
+    border: 1px solid #00973f;
     display: inline-block;
     min-width: 160px;
     padding: .9em;
@@ -399,7 +399,7 @@ Button
     font-size: 0.975rem;
     font-weight: 300;
     margin-top: 30px;
-    background: #ff5e3a;
+    background: #00973f;
     box-shadow: 0px 3px 2px 0px rgba(8, 8, 8, 0.35);
     border-radius: 3px;
 }
@@ -561,7 +561,7 @@ Extra height css
 }
 
 h1 span {
-    color: #f56363;
+    color: #00973f;
     font-weight: 400;
 }
 
@@ -594,40 +594,37 @@ h1 span {
     background-color: transparent;
     border-color: transparent;
     transition: .6s;
-    margin-top: 17px;
+    /*margin-top: 17px;*/
 }
 
 .main_menu_bg .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
-    color: #ff5e3a;
+    color: #00973f;
     background-color: transparent;
 }
 
 .menu-scroll.main_menu_bg .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
-    color: #ff5e3a;
+    color: #00973f;
     background-color: transparent;
 }
 
 .navbar-default .navbar-nav>.open>a,
 .navbar-default .navbar-nav>.open>a:hover,
 .navbar-default .navbar-nav>.open>a:focus {
-    color: #ff5e3a;
+    color: #00973f;
     background-color: transparent;
 }
 
 .main_menu_bg .navbar {
+    height: 100%;
+    /*New*/
     margin-bottom: 0px;
 }
 
 .main_menu_bg .navbar-nav>li>a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    line-height: 20px;
-    border-radius: 10px;
-    font-family: 'big_johnregular';
-    text-transform: uppercase;
-    font-size: 18px;
+    font-family: 'open_sanssemibold';
+    /*original 'big_johnregular'*/
 }
 
 .dropdown-menu>li>a {
@@ -667,7 +664,7 @@ h1 span {
 .dropdown-menu>li>a:focus {
     color: #fff;
     text-decoration: none;
-    background-color: #ff5e3a;
+    background-color: #00973f;
 }
 
 
@@ -711,11 +708,11 @@ h1 span {
 }
 
 .main_newsstory {
-    color: #59126d;
+    color: #00973f;
 }
 
 .main_newsstory a {
-    color: #59126d;
+    color: #00973f;
     font-family: 'open_sansbold_italic';
     text-decoration: underline;
 }
@@ -745,7 +742,7 @@ h1 span {
 
 .pricing_head_text h3 {
     text-transform: uppercase;
-    color: #67267a;
+    color: #fcc300;
     font-size: 1.125rem;
     font-family: 'open_sansbold';
 }
@@ -756,7 +753,7 @@ h1 span {
     text-transform: uppercase;
     margin-top: 25px;
     font-family: 'open_sansbold';
-    color: #ff5e3a;
+    color: #00973f;
 }
 
 .pricing_head_text p span {
@@ -771,7 +768,7 @@ h1 span {
 .single_pricing_text ul li {
     line-height: 45px;
     height: 45px;
-    color: #67267a;
+    color: #fcc300;
 }
 
 .single_pricing_text a {
@@ -848,7 +845,7 @@ h1 span {
 }
 
 .footerwidget .single_widget h4 {
-    color: #ff5f3b;
+    color: #00973f;
     font-size: 14px;
 }
 
@@ -923,13 +920,13 @@ h1 span {
 }
 
 
-/* Agregados nuevos*/
+/********************/
 
-.head-container {
-    max-width: 90%;
-}
 
-.navbar-brand img {
-    margin: 0 auto;
-    max-width: 35%;
-}
+/* Nuevos agregados */
+
+
+/********************/
+
+
+
