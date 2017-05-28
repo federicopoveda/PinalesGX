@@ -28,6 +28,9 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     .navbar-right {
         margin-top: 3%;
     }
+    .home {
+        padding: 10% 0px 5% 0px;
+    }
 }
 
 
@@ -66,6 +69,9 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     h2 {
         font-size: 50px;
     }
+    .home {
+        padding: 14% 0px 5% 0px;
+    }
 }
 
 
@@ -77,6 +83,9 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     }
     .main_menu_bg .navbar-nav>li>a {
         font-size: 13px;
+    }
+    .home {
+        padding: 20% 0px 4% 0px;
     }
 }
 
@@ -133,6 +142,9 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
         color: #ff5e3a;
         background-color: transparent;
+    }
+    .home {
+        padding: 20% 0px 4% 0px;
     }
 }
 

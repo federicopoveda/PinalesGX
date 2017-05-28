@@ -345,7 +345,7 @@ Separator
     height: 15px;
     width: 100%;
     margin: auto;
-    border-bottom: 1px solid #dcd2df;
+    border-bottom: 1px solid #aaa;
     display: inline-block;
 }
 
@@ -586,7 +586,7 @@ h1 span {
 .main_menu_bg {
     margin-top: 0px;
     background: #fff;
-    height: 25%;
+    height: 15%;
     /*original 80px*/
 }
 
@@ -674,7 +674,7 @@ h1 span {
     background: url(../images/homebg1.jpg) no-repeat top center;
     /* overflow: hidden; */
     background-size: cover;
-    padding: 105px 0px;
+    /*    padding: 105px 0px;*/
     color: #fff;
 }
 
@@ -689,6 +689,11 @@ h1 span {
 .single_home_right {
     margin-top: 20%;
     margin-left: 20px;
+    /*New*/
+    background-color: rgba(95, 195, 135, 0.6);
+    border-radius: 10px;
+    padding: 15px;
+    /******/
 }
 
 .single_home_right a {
@@ -720,7 +725,8 @@ h1 span {
 
 /* Pricing Section Css */
 
-.pricing_content_area .head_title p {
+.pricing_content_area .head_title p,
+.text-center p {
     font-family: 'open_sanslight';
     font-size: 2.25rem;
     line-height: 6rem;
@@ -729,7 +735,8 @@ h1 span {
 
 .pricing_content_area {
     background: #fff;
-    padding: 40px;
+    padding: 9% 0px;
+    /*Original: 40px*/
     overflow: hidden;
 }
 
@@ -806,7 +813,7 @@ h1 span {
     top: -6px;
     width: 40px;
     height: 40px;
-    background: #fff;
+    background: #ddd;
     line-height: 40px;
     text-align: center;
     font-size: 24px;
@@ -928,5 +935,32 @@ h1 span {
 
 /********************/
 
+.main_callus {
+    padding: 9% 0px;
+}
 
+.q-somos,
+.calidad {
+    background-color: #ddd;
+}
 
+.calidad h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.125rem;
+    font-family: 'open_sansbold';
+}
+
+.calidad img {
+    float: left;
+    margin: 0 auto;
+}
+
+.servicios {
+    margin: 4% 0px;
+}
+
+.service_content_area li {
+    margin: 10px 0px;
+    list-style-type: disc;
+}
