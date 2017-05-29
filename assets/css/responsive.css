@@ -152,6 +152,19 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 /* Landscape phones and smaller */
 
 @media (min-width:320px) and (max-width: 479px) {
+    .navbar-header {
+        height: 100%;
+        width: 100%;
+    }
+    .navbar-brand {
+        margin-left: 9%;
+        height: 100%;
+        padding: 0;
+        width: 40%;
+    }
+    .home {
+        padding: 33% 0px 10% 0px;
+    }
     html {
         font-size: 65%;
     }
