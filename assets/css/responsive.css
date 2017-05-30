@@ -14,7 +14,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     .navbar-brand {
         height: 100%;
         padding: 0;
-        width: 45%;
+        width: 55%;
     }
     .navbar-header {
         height: 100%;
@@ -50,7 +50,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
         margin-left: 9%;
         height: 100%;
         padding: 0;
-        width: 52%;
+        width: 58%;
     }
     .navbar-header {
         height: 100%;
@@ -69,8 +69,12 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     h2 {
         font-size: 50px;
     }
-    .home {
-        padding: 14% 0px 5% 0px;
+    .home,
+    .home-banano,
+    .home-papaya,
+    .home-pina,
+    .home-yuca {
+        padding: 17% 0px 5% 0px;
     }
 }
 
@@ -84,7 +88,11 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     .main_menu_bg .navbar-nav>li>a {
         font-size: 13px;
     }
-    .home {
+    .home,
+    .home-banano,
+    .home-papaya,
+    .home-pina,
+    .home-yuca {
         padding: 20% 0px 4% 0px;
     }
 }
@@ -106,7 +114,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
         margin-left: 9%;
         height: 100%;
         padding: 0;
-        width: 75%;
+        width: 100%;
     }
     .navbar-header {
         height: 100%;
@@ -143,7 +151,11 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
         color: #ff5e3a;
         background-color: transparent;
     }
-    .home {
+    .home,
+    .home-banano,
+    .home-papaya,
+    .home-pina,
+    .home-yuca {
         padding: 20% 0px 4% 0px;
     }
 }
@@ -160,9 +172,13 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
         margin-left: 9%;
         height: 100%;
         padding: 0;
-        width: 40%;
+        width: 45%;
     }
-    .home {
+    .home,
+    .home-banano,
+    .home-papaya,
+    .home-pina,
+    .home-yuca {
         padding: 33% 0px 10% 0px;
     }
     html {

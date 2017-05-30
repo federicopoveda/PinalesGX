@@ -686,12 +686,20 @@ h1 span {
     font-size: 14px;
 }
 
-.single_home_right {
+.home .single_home_right {
     margin-top: 20%;
     margin-left: 20px;
     /*New*/
     background-color: rgba(95, 195, 135, 0.6);
     border-radius: 10px;
+    padding: 15px;
+    /******/
+}
+
+.single_home_right {
+    margin-top: 20%;
+    margin-left: 20px;
+    /*New*/
     padding: 15px;
     /******/
 }
@@ -806,19 +814,6 @@ h1 span {
 }
 
 .or_section .separator {}
-
-.or_section p {
-    position: absolute;
-    left: 44%;
-    top: -6px;
-    width: 40px;
-    height: 40px;
-    background: #ddd;
-    line-height: 40px;
-    text-align: center;
-    font-size: 24px;
-    font-family: 'open_sanslight';
-}
 
 .callus_bottom_content {
     margin: 6rem 0rem;
@@ -935,6 +930,45 @@ h1 span {
 
 /********************/
 
+.home-banano {
+    background: url(../images/home-banano.jpg) no-repeat top center;
+    background-size: cover;
+    color: #fff;
+}
+
+.home-pina {
+    background: url(../images/home-pina.jpg) no-repeat top center;
+    background-size: cover;
+    color: #fff;
+}
+
+.home-papaya {
+    background: url(../images/home-papaya.jpg) no-repeat top center;
+    background-size: cover;
+    color: #fff;
+}
+
+.home-yuca {
+    background: url(../images/home-yuca.jpg) no-repeat top center;
+    background-size: cover;
+    color: #fff;
+}
+
+.home-yuca .container,
+.home-pina .container,
+.home-papaya .container,
+.home-banano .container {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.yuca,
+.banano,
+.pina,
+.papaya {
+    background-color: #aaa;
+    padding: 20px 0px 50px 0px;
+}
+
 .main_callus {
     padding: 9% 0px;
 }
@@ -951,8 +985,12 @@ h1 span {
     font-family: 'open_sansbold';
 }
 
+.products img {
+    height: 230px;
+}
+
 .calidad img {
-    float: left;
+    display: block;
     margin: 0 auto;
 }
 
