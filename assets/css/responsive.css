@@ -28,7 +28,11 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     .navbar-right {
         margin-top: 3%;
     }
-    .home {
+    .home,
+    .home-banano,
+    .home-pina,
+    .home-papaya,
+    .home-yuca {
         padding: 10% 0px 5% 0px;
     }
 }
@@ -172,7 +176,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
         margin-left: 9%;
         height: 100%;
         padding: 0;
-        width: 45%;
+        width: 40%;
     }
     .home,
     .home-banano,

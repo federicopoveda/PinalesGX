@@ -678,6 +678,14 @@ h1 span {
     color: #fff;
 }
 
+.home .container,
+.home-banano .container,
+.home-papaya .container,
+.home-pina .container,
+.home-yuca .container {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
 .main_home {}
 
 .single_home_left {}
@@ -690,7 +698,6 @@ h1 span {
     margin-top: 20%;
     margin-left: 20px;
     /*New*/
-    background-color: rgba(95, 195, 135, 0.6);
     border-radius: 10px;
     padding: 15px;
     /******/
@@ -783,7 +790,7 @@ h1 span {
 .single_pricing_text ul li {
     line-height: 45px;
     height: 45px;
-    color: #fcc300;
+    color: #00973f;
 }
 
 .single_pricing_text a {
@@ -954,12 +961,12 @@ h1 span {
     color: #fff;
 }
 
-.home-yuca .container,
-.home-pina .container,
-.home-papaya .container,
-.home-banano .container {
+
+/*
+.home .container {
     background-color: rgba(0, 0, 0, 0.3);
 }
+*/
 
 .yuca,
 .banano,
@@ -983,10 +990,6 @@ h1 span {
     font-weight: bold;
     font-size: 1.125rem;
     font-family: 'open_sansbold';
-}
-
-.products img {
-    height: 230px;
 }
 
 .calidad img {
