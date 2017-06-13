@@ -137,11 +137,11 @@ input[type="color"],
 }
 
 .form-control {
-    border: 1px solid rgba(0, 0, 0, 0.90);
+    /*    border: 1px solid rgba(0, 0, 0, 0.90);*/
     font-size: 16px;
     height: 45px;
-    background: #fad663;
-    border-radius: 15px 15px 15px 15px;
+    background: #fff;
+    /*    border-radius: 15px 15px 15px 15px;*/
 }
 
 .form-control:focus {
@@ -800,17 +800,20 @@ h1 span {
 
 /* Call us section */
 
-.callus_top_content {
+.callus_top_content,
+.contact_content_area {
     margin-top: 40px;
 }
 
-.callus_top_content p {
+.callus_top_content p,
+.contact_content_area p {
     font-size: 2.25rem;
     font-family: 'open_sanslight';
     line-height: 5rem;
 }
 
-.callus_top_content p strong {
+.callus_top_content p strong,
+.contact_content_area p strong {
     color: #5b136d;
 }
 

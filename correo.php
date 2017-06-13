@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Banano | Gala Gold</title>
+    <title>Inicio | Gala Gold</title>
     <meta name="description" content="Actualmente estamos enfocados en la exportación de una amplia gama de productos tropicales, conocidos también como productos étnicos, tales como: piña md2, papaya pococi, yuca, zanahoria, mango tommy.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -27,9 +27,10 @@
     <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <div class='preloader'>
-        <div class='loaded'>&nbsp;</div>
+    <div class="preloader">
+        <div class="loaded">&nbsp;</div>
     </div>
+    <!--Home page style-->
     <header id="main_menu" class="header">
         <div class="main_menu_bg navbar-fixed-top">
             <div class="head-container">
@@ -47,15 +48,16 @@
                             <li><a href="index.html#q-somos">Qui&eacute;nes Somos&#63;</a></li>
                             <li><a href="index.html#servicios">Servicios</a></li>
                             <li><a href="index.html#calidad">Calidad</a></li>
-                            <!--<li><a href="#callus">Log&iacute;stica</a></li>-->
-                            <!--                            <li><a href="#callus">Cont&aacute;ctenos</a></li>-->
+                            <!--<li><a href="#contactenos">Log&iacute;stica</a></li>-->
+                            <li><a href="index.html#contactenos">Cont&aacute;ctenos</a></li>
                         </ul>
                     </div>
                 </nav>
             </div>
         </div>
     </header>
-    <section id="home-banano" class="home-banano">
+    <!--End of header -->
+    <section id="home" class="home">
         <div class="home_overlay">
             <div class="container">
                 <div class="row">
@@ -67,35 +69,15 @@
                                         <div class="single_home_left">
                                             <h2>Las mejores frutas tropicales</h2>
                                             <h3>De Costa Rica al mundo</h3>
-                                            <p>El esfuerzo realizado en los últimos ańos por Galagold Costa Rica, en cuanto a la inversión, especialización y formación a situado a la empresa entre las más destacadas del sector.</p>
+                                            <p>El esfuerzo realizado en los &uacute;ltimos a&ntilde;os por Galagold Costa Rica, en cuanto a la inversi&oacute;n, especializaci&oacute;n y formaci&oacute;n a situado a la empresa entre las m&aacute;s destacadas del sector.</p>
                                         </div>
                                     </div>
                                     <div class="col-sm-5">
                                         <div class="single_home_right"> <a href=""><span>Llamenos :</span>  <strong>(506) 4001-3290</strong></a> <a href="mailto:info@galagold-cr.com"><span>Correo electr&oacute;nico :</span> <strong>info@galagold-cr.com</strong> </a> </div>
-                                        <!--                                        <div class="single_home_right"> <a href=""><span>Llamenos :</span>  <strong>(506) 4001-3290</strong></a> <a href="mailto:info@galagold-cr.com"><span>Correo electr&oacute;nico :</span> <strong>info@galagold-cr.com</strong> </a> <a href="" class="btn btn-lg">Contactenos&#33;</a> </div>--></div>
-                                    <!--<img src="assets/images/homepc.png" alt="" />--></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="banano" class="banano">
-        <div class="container">
-            <div class="row">
-                <div class="service_content_area">
-                    <div class="head_title text-center">
-                        <p>Banano <strong></strong></p>
-                    </div>
-                    <div class="col-sm-12 col-md-12">
-                        <div class="col-sm-12 col-md-12">
-                            <ul>
-                                <li> <strong>Nombre científico:</strong> Musa paradisiaca</li>
-                                <li> <strong>También Conocido como:</strong> Banana o Pl&aacute;tano </li>
-                                <li> <strong>Variedad:</strong> Cavendish</li>
-                                <li> <strong>Propiedades:</strong> La gran variedad de formas hace de la banana y el plátano un alimento extremadamente versátil. En Occidente la forma más frecuente y simple de consumo es como fruta de postre, servida entera y usando la cáscara para sujetarla sin que las manos entre en contacto con la pulpa directamente. En trozos se incorpora a ensaladas de fruta, gelatinas y otros postres, así como a batidos y otras bebidas. Por su elevado aporte energético y su alto contenido en potasio, inusual entre las frutas, es de frecuente consumo entre deportistas y fisicoculturistas. </li>
-                            </ul> <a class="btn-lg" href="">Ver Galería ...</a> </div>
                     </div>
                 </div>
             </div>
@@ -132,3 +114,94 @@
 </body>
 
 </html>
+<?php
+if(isset($_POST['email'])) {
+ 
+    // EDIT THE 2 LINES BELOW AS REQUIRED
+    $email_to = "info@galagold-cr.com"; 
+    $email_subject = "Correo de contacto Sitio web";
+ 
+    function died($error) {
+        // your error code can go here
+        echo "Lo sentimos, pero ococurrio un error dentro del formulario. ";
+        echo "A continuacion el error.<br />";
+        echo $error."<br /><br />";
+        echo "Por favor intentelo mas tarde<br />";
+        die();
+    }
+ 
+ 
+    // validation expected data exists
+    if(!isset($_POST['nombre']) ||
+        !isset($_POST['empresa']) ||
+        !isset($_POST['email']) ||
+        !isset($_POST['telefono']) ||
+        !isset($_POST['pais'])||
+        !isset($_POST['comentario'])) {
+        died('Lo sentimos, pero ococurrio un error dentro del formulario.');       
+    }
+ 
+     
+ 
+    $nombre = $_POST['nombre']; // required
+    $empresa = $_POST['empresa']; // required
+    $email_from = $_POST['email']; // required
+    $telefono = $_POST['telefono']; //  required
+    $pais = $_POST['pais'];
+    $comentario = $_POST['comentario']; // required
+ 
+    $error_message = "";
+    $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
+ 
+  if(!preg_match($email_exp,$email_from)) {
+    $error_message .= 'El correo no es valido.<br />';
+  }
+ 
+    $string_exp = "/^[A-Za-z .'-]+$/";
+ 
+  if(!preg_match($string_exp,$nombre)) {
+    $error_message .= 'Ingrese un Nombre valido.<br />';
+  }
+ 
+  if(!preg_match($string_exp,$empresa)) {
+    $error_message .= 'El nombre de la empresa no es valido.<br />';
+  }
+  if(!preg_match($string_exp,$telefono)) {
+    $error_message .= 'El numero no es valido.<br />';
+  }
+  if(strlen($comentario) < 2) {
+    $error_message .= 'The comentario you entered do not appear to be valid.<br />';
+  }
+ 
+  if(strlen($error_message) > 0) {
+    died($error_message);
+  }
+ 
+    $email_message = "Form details below.\n\n";
+ 
+     
+    function clean_string($string) {
+      $bad = array("content-type","bcc:","to:","cc:","href");
+      return str_replace($bad,"",$string);
+    }
+ 
+     
+ 
+    $email_message .= "Nombre: ".clean_string($nombre)."\n";
+    $email_message .= "Empresa: ".clean_string($empresa)."\n";
+    $email_message .= "Email: ".clean_string($email_from)."\n";
+    $email_message .= "Telefono: ".clean_string($telefono)."\n";
+    $email_message .= "Pais: ".clean_string($pais)."\n";
+    $email_message .= "comentario: ".clean_string($comentario)."\n";
+ 
+// create email headers
+$headers = 'From: '.$email_from."\r\n".
+'Reply-To: '.$email_to."\r\n" .
+'X-Mailer: PHP/' . phpversion();
+@mail($email_to, $email_subject, $email_message, $headers);  
+?>
+    <!-- include your own success html here -->Thank you for contacting us. We will be in touch with you very soon.
+    <?php
+ 
+}
+?>
